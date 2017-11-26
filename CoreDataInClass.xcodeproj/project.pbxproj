@@ -14,6 +14,7 @@
 		C32EC3921FC3B75C0045A3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32EC3911FC3B75C0045A3A5 /* Assets.xcassets */; };
 		C32EC3951FC3B75C0045A3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32EC3931FC3B75C0045A3A5 /* LaunchScreen.storyboard */; };
 		C32EC3981FC3B75C0045A3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EC3971FC3B75C0045A3A5 /* main.m */; };
+		C3D999121FC9DF11003F468C /* MyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D999111FC9DF11003F468C /* MyDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		C32EC3941FC3B75C0045A3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32EC3961FC3B75C0045A3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32EC3971FC3B75C0045A3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D999101FC9DF11003F468C /* MyDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDataController.h; sourceTree = "<group>"; };
+		C3D999111FC9DF11003F468C /* MyDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				C32EC3961FC3B75C0045A3A5 /* Info.plist */,
 				C32EC3971FC3B75C0045A3A5 /* main.m */,
 				C32EC38E1FC3B75C0045A3A5 /* CoreDataInClass.xcdatamodeld */,
+				C3D999101FC9DF11003F468C /* MyDataController.h */,
+				C3D999111FC9DF11003F468C /* MyDataController.m */,
 			);
 			path = CoreDataInClass;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				C32EC3901FC3B75C0045A3A5 /* CoreDataInClass.xcdatamodeld in Sources */,
 				C32EC38A1FC3B75C0045A3A5 /* ViewController.m in Sources */,
 				C32EC3981FC3B75C0045A3A5 /* main.m in Sources */,
+				C3D999121FC9DF11003F468C /* MyDataController.m in Sources */,
 				C32EC3871FC3B75C0045A3A5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
