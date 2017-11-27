@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "ViewController.h"
 
 @interface MyDataController : NSObject
 
-@property (strong, nonatomic) NSPersistentContainer *persistentContainer;
+@property (strong, nonatomic, readonly) NSPersistentContainer *persistentContainer;
 
 - (id)initWithCompletionBlock:(CallbackBlock)callback;
+
 
 @end
 
@@ -24,7 +26,6 @@
 {
     self = [super init];
     if (!self) return nil;
-    
     self.persistentContainer = [[NSPersistentContainer alloc] initWithName:@"DataModel"];
     [self.persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *description, NSError *error) {
         if (error != nil) {
@@ -36,3 +37,14 @@
     
     return self;
 }
+
+- (void)awakeFromInsert
+{
+    [super awakeFromInsert];
+    [self setCreationDate:[NSDate date]];
+}
+
+
+@end
+
+

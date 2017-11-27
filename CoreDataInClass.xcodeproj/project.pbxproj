@@ -15,6 +15,8 @@
 		C32EC3951FC3B75C0045A3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32EC3931FC3B75C0045A3A5 /* LaunchScreen.storyboard */; };
 		C32EC3981FC3B75C0045A3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EC3971FC3B75C0045A3A5 /* main.m */; };
 		C3D999121FC9DF11003F468C /* MyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D999111FC9DF11003F468C /* MyDataController.m */; };
+		D3F011F81FCB9A3900A2FFF8 /* AAAEmployeeMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F011F71FCB9A3900A2FFF8 /* AAAEmployeeMO.m */; };
+		D3F011FB1FCBA15900A2FFF8 /* myManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F011FA1FCBA15900A2FFF8 /* myManagedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		C32EC3971FC3B75C0045A3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3D999101FC9DF11003F468C /* MyDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDataController.h; sourceTree = "<group>"; };
 		C3D999111FC9DF11003F468C /* MyDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDataController.m; sourceTree = "<group>"; };
+		D3F011F61FCB9A3900A2FFF8 /* AAAEmployeeMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAEmployeeMO.h; sourceTree = "<group>"; };
+		D3F011F71FCB9A3900A2FFF8 /* AAAEmployeeMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAEmployeeMO.m; sourceTree = "<group>"; };
+		D3F011F91FCBA15900A2FFF8 /* myManagedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myManagedObject.h; sourceTree = "<group>"; };
+		D3F011FA1FCBA15900A2FFF8 /* myManagedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myManagedObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				C32EC3961FC3B75C0045A3A5 /* Info.plist */,
 				C32EC3971FC3B75C0045A3A5 /* main.m */,
 				C32EC38E1FC3B75C0045A3A5 /* CoreDataInClass.xcdatamodeld */,
+				D3F011F61FCB9A3900A2FFF8 /* AAAEmployeeMO.h */,
+				D3F011F71FCB9A3900A2FFF8 /* AAAEmployeeMO.m */,
+				D3F011F91FCBA15900A2FFF8 /* myManagedObject.h */,
+				D3F011FA1FCBA15900A2FFF8 /* myManagedObject.m */,
 				C3D999101FC9DF11003F468C /* MyDataController.h */,
 				C3D999111FC9DF11003F468C /* MyDataController.m */,
 			);
@@ -155,6 +165,8 @@
 				C32EC3981FC3B75C0045A3A5 /* main.m in Sources */,
 				C3D999121FC9DF11003F468C /* MyDataController.m in Sources */,
 				C32EC3871FC3B75C0045A3A5 /* AppDelegate.m in Sources */,
+				D3F011FB1FCBA15900A2FFF8 /* myManagedObject.m in Sources */,
+				D3F011F81FCB9A3900A2FFF8 /* AAAEmployeeMO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
